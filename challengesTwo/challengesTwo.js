@@ -10,7 +10,7 @@ const somatorio = (sorteioHum, sorteioDois) => {
     const dDois = sorteioDois;
 
     return (dHum + dDois);
-}
+} 
 
 const resultado = (soma) => {
     const resultado = soma % 2 === 0 ? 'PAR' : 'IMPAR';
