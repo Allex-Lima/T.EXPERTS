@@ -15,13 +15,15 @@ function sorteioNumero() {
             i++
         }
 
-        const elementAarrayIguais = arrayNumero.every(item => item === arrayNumero[arrayNumero.length - 1])
+        const elementAarrayIguais = arrayNumero
+            .every(item => item === arrayNumero[arrayNumero.length - 1])
 
         msn = elementAarrayIguais ? `Fase 2: ${++faseDoisPA} Portas Aberta ` : `Fase 2: Tente de novo`
 
         //Fase 3
         
-        const arrayIguais = ((arrayNumero.length === ultimosSorteios.length) && (arrayNumero.every((item, index) => item === ultimosSorteios[index])))
+        const arrayIguais = ((arrayNumero.length === ultimosSorteios.length) && (arrayNumero
+            .every((item, index) => item === ultimosSorteios[index])))
         
         ultimosSorteios = [...arrayNumero]
         
