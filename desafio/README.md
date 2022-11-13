@@ -1,9 +1,9 @@
-## DESAFIO - LÓGICA @[FS JavaScript] 10/22 
+## DESAFIO - LÓGICA
 
 # Fase 1
 - crie um array dinâmico com três posições [2,1,2]
 - crie uma iteração que retorne números aleatórios entre 1 e 3
- -a cada retorno, altere o valor do array respectivamente
+-a cada retorno, altere o valor do array respectivamente
 
 # Fase 2
 - utilize as linhas já codificadas e insira em uma função
@@ -17,11 +17,11 @@
 - crie uma variável que armazene o valor do último sorteio
 - compare a valor do último sorteio com o valor do sorteio atual
 -- Se os valores forem iguais: escreva 'Porta (x)' : aberta
--- Se os valores forem diferentes: 
-        escreva 'Tente de novo' (Com a exceção do resultado ser de números iguais)
+-- Se os valores forem diferentes:
+        escreva 'Tente de novo' (Com a exceção do resultado ser de números iguais)
 
+As portas serão abertas quando:
+    - os números do array forem iguais 
+    - a sequência de números do array for igual a sequência de númeroso do último sorteio
 
-Boa tarde, pessoal! Tudo bem? @[FS JavaScript] 10/22 
-
-
-Quem participou da aula ao vivo, por favor não esqueçam de preencher nosso formulário de avaliação:
+Fim do jogo acontece quando a terceira porta for aberta.
